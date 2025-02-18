@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div className='flex justify-center align-center my-10'>
       <div style={{backgroundColor:"#007a66"}} className='p-4 rounded w-[95%]'>
-      <h1 className='text-center text-4xl md:text-6xl  font-bold py-1 md:py-4'>Score Board</h1>
+      <h1 className='text-center text-4xl md:text-6xl  font-bold py-1 md:py-4 text-white'>Score Board</h1>
         <div className='flex justify-evenly flex-wrap m-14'>
          <ScoreCard score={scoreTeamA} teamName="Team A" 
          decreaseScore={()=> {setScoreTeamA(scoreTeamA >= 1 ? scoreTeamA - 1 : 0)}} 
